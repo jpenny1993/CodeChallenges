@@ -12,11 +12,41 @@ namespace FibonacciNumber
     {
         static void Main(string[] args)
         {
-            for (var i = 0; i <= 100; i++)
+            Console.WriteLine("Non recursive calculations:");
+            for (var i = 0; i <= 25; i++)
             {
                 var n = Fib(i);
                 Console.Write("{0}, ", n);
             }
+            
+            Console.WriteLine("\r\nRecursive calculations:");
+            for (var i = 0; i <= 25; i++)
+            {
+                var n = FibRec(i);
+                Console.Write("{0}, ", n);
+            }
+            Console.WriteLine("");
+        }
+
+        static ulong FibRec(int index)
+        {
+            if (index < 0)
+                throw new ArgumentOutOfRangeException(nameof(index), "Index must be zero or greater.");
+            
+            if (index == 0)
+                return 0;
+            
+            if (index == 1)
+                return 1;
+
+            var first = FibRec(index - 1);
+            var second = FibRec(index - 2);
+            var result = first + second;
+            
+            if (result < second)
+                throw new OverflowException("The calculated value has exceeded the capacity of a ulong.");
+            
+            return result;
         }
 
         static ulong Fib(int index)
