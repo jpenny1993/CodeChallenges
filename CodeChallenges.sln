@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumber", "src\PrimeNum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciNumber", "src\FibonacciNumber\FibonacciNumber.csproj", "{E6E23432-BED9-4078-9DAF-ACB307DE5CD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "src\Palindrome\Palindrome.csproj", "{91800490-D114-4537-BB85-7AAE24373F16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{E6E23432-BED9-4078-9DAF-ACB307DE5CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6E23432-BED9-4078-9DAF-ACB307DE5CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6E23432-BED9-4078-9DAF-ACB307DE5CD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91800490-D114-4537-BB85-7AAE24373F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91800490-D114-4537-BB85-7AAE24373F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91800490-D114-4537-BB85-7AAE24373F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91800490-D114-4537-BB85-7AAE24373F16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
