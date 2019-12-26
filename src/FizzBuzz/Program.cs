@@ -13,18 +13,27 @@ namespace FizzBuzz
         {
             for (var i = 1; i <= 100; i++)
             {
-                var fizz = i % 3 == 0;
-                var buzz = i % 5 == 0;
-                
-                if (fizz && buzz)
-                    Console.WriteLine("FizzBuzz");
-                else if (fizz)
-                    Console.WriteLine("Fizz");
-                else if (buzz)
-                    Console.WriteLine("Buzz");
-                else 
-                    Console.WriteLine(i);
+                var result = DoFizzBuzz(i);
+                Console.WriteLine(result);
             }
+        }
+
+        private static string DoFizzBuzz(int value)
+        {
+            var fizz = value % 3 == 0;
+            var buzz = value % 5 == 0;
+
+            var str = string.Empty;
+             
+            if (fizz) 
+                str += "Fizz";
+            
+            if (buzz)
+                str += "Buzz";
+            
+            return string.IsNullOrEmpty(str)
+                ? value.ToString() 
+                : str;
         }
     }
 }
