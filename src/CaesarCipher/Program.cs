@@ -34,7 +34,7 @@ namespace CaesarCipher
             const int length = end - start + 1;
             var charArray = input.ToLowerInvariant().Select(c =>
             {
-                if (!char.IsLetterOrDigit(c))
+                if (!char.IsLetter(c))
                     return c;
                 
                 var shiftedChar = c + n;
