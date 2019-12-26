@@ -15,6 +15,8 @@ ProjectSection(SolutionItems) = preProject
 	README.md = README.md
 EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatestCommonDenominator", "src\GreatestCommonDenominator\GreatestCommonDenominator.csproj", "{48F776AB-0F0A-486E-BD39-EB8C6ECA7E1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,5 +43,9 @@ Global
 		{CCE899C6-066B-4C99-BE66-08E66795653D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCE899C6-066B-4C99-BE66-08E66795653D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCE899C6-066B-4C99-BE66-08E66795653D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F776AB-0F0A-486E-BD39-EB8C6ECA7E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F776AB-0F0A-486E-BD39-EB8C6ECA7E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F776AB-0F0A-486E-BD39-EB8C6ECA7E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F776AB-0F0A-486E-BD39-EB8C6ECA7E1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

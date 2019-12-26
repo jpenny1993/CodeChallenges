@@ -20,6 +20,12 @@ For numbers which are multiples of both three and five return 'FizzBuzz'.<br />
 For numbers that are neither, return the input number.<br />
 [Solution](./src/FizzBuzz/Program.cs)
 
+## Greatest common denominator
+Write a method that finds the greatest common denominator of two integers, which are not all zero.<br />
+The gcd is the largest positive integer that divides each of the integers without a remainder.<br />
+For example, the gcd of 8 and 12 is 4.<br />
+[Solution](./src/GreatestCommonDenominator/Program.cs)
+
 ## Palindrome
 A palindrome is a word which reads the same backward or forward. 'abcba' is a palindrome.<br />
 Write a method that detects if a string is a palindrome.<br />
