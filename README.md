@@ -7,6 +7,14 @@ Anagrams are words or phrases made by mixing up the letters of other words or ph
 Write a method that detects if a string is an anagram of another.<br />
 [Solution](./src/Anagram/Program.cs)
 
+# Caesar cipher
+The Caesar cipher is a basic encryption technique used by Julius Caesar to securely communicate with his generals.<br />
+Each letter is replaced by another letter N positions down the english alphabet.<br />
+For example, for a rotation of 5, the letter 'c' would be replaced by an 'h'.<br />
+In case of a 'z', the alphabet rotates and it is transformed into a 'd'.<br />
+Implement a decoder for the Caesar cipher where N = 4.<br />
+[Solution](./src/CaesarCipher/Program.cs)
+
 ## Fibonacci
 Write a method that returns the nth element of the Fibonacci Sequence.<br />
 The Fibonacci Sequence is the series of numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34,...<br />
